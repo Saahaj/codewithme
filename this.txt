@@ -1,0 +1,21 @@
+client   |give command
+   |
+brower   |
+   |     |200(send request)
+server   |
+
+front end: html ,css ,js (beauty with brain)
+back end: node ,express, postgres
+Api
+version control
+
+Class vs Id
+Class: a group justyo wla //classification of object
+   # class="red bg-yellow"  has 2 class sperate by space
+   discribe by . in css
+Id: unique identifier
+   describe by # in css
+   for gener ating links
+
+Semantic tag; best for seo
+that help us in html and explain website better

@@ -1,0 +1,194 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    background-color: #4d7fb1a6;
+    color: #312626;
+    padding: 1rem;
+}
+
+/* Content Wrapper for Main and Aside */
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    flex: 1;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 0 auto 1rem auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+nav li {
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+nav li:hover {
+    background-color: #34495e;
+    border-radius: 4px;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    grid-column: 2;
+}
+
+/* Article Styles */
+article {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+}
+
+article h1 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+article h2 {
+    color: #34495e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+article p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+article p:last-child {
+    margin-bottom: 0;
+}
+
+/* Section Styles */
+section {
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+section h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+section p {
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Aside Styles */
+aside {
+    background-color: #e8f4f8;
+    padding: 1.5rem;
+    margin: 0;
+    border-radius: 4px;
+    border-left: 4px solid #16a085;
+    grid-column: 1;
+    align-self: start;
+}
+
+aside h2 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+aside h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+aside ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    color: #555;
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Link Styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+footer a {
+    color: #ecf0f1;
+    margin: 0 0.5rem;
+}
+
+footer a:hover {
+    color: #3498db;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
